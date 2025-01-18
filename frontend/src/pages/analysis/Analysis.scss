@@ -1,0 +1,54 @@
+.analysis {
+  display: flex;
+  overflow: hidden;
+  background-color: beige;
+
+  .analysis_container {
+    flex: 7;
+    box-shadow: -8px -10px 15px rgba(0, 0, 0, 0.9);
+
+    .top_section {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10px;
+      box-shadow: 2px 1px 22px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      margin: 50px 30px;
+      transition: transform 250ms ease-in-out;
+    }
+
+    .middle_section {
+      height: 100vh;
+      
+      .filter {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+        margin: 30px;
+      }
+
+      select {
+        border-radius: 6px;
+        padding: 2px 20px;
+        background-color: var(--lightBrown);
+        outline: none;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+    .bottom_section {
+      .heading {
+        font-size: 25px;
+        font-weight: 500;
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 65px;
+        margin-bottom: 20px;
+      }
+      .data_table {
+        padding: 10px 40px;
+      }
+    }
+  }
+}

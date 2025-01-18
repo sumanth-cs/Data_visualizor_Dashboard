@@ -1,0 +1,22 @@
+.video_wrapper {
+  flex: 1;
+
+  .video {
+    object-fit: cover;
+    width: 34rem;
+    height: 14rem;
+    border-radius: 27px;
+    margin: 20px;
+    box-shadow: 12px 15px 10px rgba(0,0,0,0.1);
+    z-index: -10;
+  }
+
+  .overlay_text{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    top: -52%;
+    left: 8%;
+  }
+}

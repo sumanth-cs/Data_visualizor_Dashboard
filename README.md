@@ -3,8 +3,7 @@
 ## Description
 This project is a **Data Visualization Dashboard** built to analyze and visualize complex data efficiently. It incorporates a responsive bar chart for data representation, along with a dynamic backend to handle data processing and API requests.
 
-The application is deployed live and can be accessed here: https://678e02c6106e3e6ec078d001--remarkable-boba-205f02.netlify.app/
-
+The application is deployed live and can be accessed here: https://remarkable-boba-205f02.netlify.app/
 ## Features
 - **Interactive Bar Chart**: Built with the Nivo library for seamless and customizable data visualization.
 - **Dynamic Data Fetching**: The backend provides robust API support to fetch and process data based on user-selected filters.

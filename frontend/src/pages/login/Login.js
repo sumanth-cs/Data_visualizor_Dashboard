@@ -17,7 +17,7 @@ const Login = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch("http://localhost:8080/api/v1/login", {
+            const response = await fetch("https://data-visualizor-dashboard.onrender.com/api/v1/login", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ email, password }),
@@ -39,8 +39,8 @@ const Login = () => {
         <div className="login">
             <div className="login_container">
 
-                {/* <span style={{ fontSize: "13px" }}>email: admin@gmail.com</span>
-                <span style={{ fontSize: "13px" }}>password: admin123</span> */}
+                <span style={{ fontSize: "13px" }}>email: admin@gmail.com</span>
+                <span style={{ fontSize: "13px" }}>password: admin123</span>
 
                 <div className='heading flex'>login</div>
 

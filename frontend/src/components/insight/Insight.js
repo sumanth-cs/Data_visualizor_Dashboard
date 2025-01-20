@@ -14,7 +14,7 @@ const Insight = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(`http://localhost:8080/api/v1/getdata`)
+        const res = await axios.get(`https://data-visualizor-dashboard.onrender.com/api/v1/getdata`)
         setData(res.data);
       } catch (error) {
         console.log("Error fetching data", error);

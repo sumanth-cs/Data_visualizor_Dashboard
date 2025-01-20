@@ -1,6 +1,6 @@
 /node_modules
 /build
 /dist
-
-cd backend npm install && npm run build 
-cd backend npm start && npm install serve --save && serve -s build
+.env
+# cd backend npm install && npm run build 
+# cd backend npm start && npm install serve --save && serve -s build

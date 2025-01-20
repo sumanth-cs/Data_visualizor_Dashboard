@@ -128,7 +128,7 @@ const BarChart = ({ filtername }) => {
     useEffect(() => {
       const fetchLegendData = async () => {
         try {
-          const res = await axios.get(`http://localhost:8080/api/v1/getdataforfilter/?filtername=${filtername}`)
+          const res = await axios.get(`https://data-visualizor-dashboard.onrender.com/api/v1/getdataforfilter/?filtername=${filtername}`)
           setLegendData(res.data)
         } catch (error) {
           console.error("An error occurred while fetching legend data:", error);
@@ -145,7 +145,7 @@ const BarChart = ({ filtername }) => {
         setResultLegendData(resultArray);
   
         const promises = resultArray.map((item) => {
-          return axios.get(`http://localhost:8080/api/v1/getdataforgraph?${filtername}=${item}`);
+          return axios.get(`https://data-visualizor-dashboard.onrender.com/api/v1/getdataforgraph?${filtername}=${item}`);
         });
   
         try {

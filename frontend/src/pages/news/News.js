@@ -15,7 +15,7 @@ const News = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:8080/api/v1/getdata");
+        const res = await axios.get("https://data-visualizor-dashboard.onrender.com/api/v1/getdata");
         setData(res.data);
       } catch (error) {
         console.error("An error occurred while fetching news data:", error);
